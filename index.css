@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #000000;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #5a5a5a;
+  margin-bottom: 15px;
+}
+
+.movie-details p {
+  font-weight: normal;
+  color: #555555;
+  margin: 4px 0;
+}
+
+.movie-details p strong {
+  font-weight: bold;
+  color: #000000;
+  margin-right: 6px;
+  display: inline-block;
+  min-width: 90px;
+}
