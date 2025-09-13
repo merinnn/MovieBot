@@ -7,7 +7,7 @@ function MovieSearch({ setMovies }) {
   const [error, setError] = useState("");
 
   // Hardcoded API key (replace with your actual key)
-  const OMDB_API_KEY = "ac9c6468";
+  const OMDB_API_KEY = "";
 
   const searchMovies = async (searchQuery) => {
     if (!searchQuery || typeof searchQuery !== "string" || !searchQuery.trim()) return;
@@ -68,3 +68,4 @@ function MovieSearch({ setMovies }) {
 }
 
 export default MovieSearch;
+
