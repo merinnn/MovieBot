@@ -11,8 +11,8 @@ function App() {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   // Hardcoded API keys (replace with your actual keys)
-  const OMDB_API_KEY = "";
-  const GEMINI_API_KEY = "";
+  const OMDB_API_KEY = "enter ur key here";
+  const GEMINI_API_KEY = "enter ur key here";
 
   useEffect(() => {
     // Fetch recent movies on initial load (e.g., movies from 2023)
